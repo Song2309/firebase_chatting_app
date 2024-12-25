@@ -1,0 +1,32 @@
+name: demo_chatting_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  firebase_storage: ^12.3.7
+  cloud_firestore: ^5.6.0
+  dash_chat_2: ^0.0.21
+  firebase_analytics: ^11.3.6
+  google_fonts: ^6.2.1
+  delightful_toast: ^1.1.0
+  get_it: ^8.0.3
+  get: ^4.6.6
+  image_picker: ^1.1.2
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
